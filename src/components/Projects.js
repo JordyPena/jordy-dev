@@ -87,7 +87,7 @@ class Projects extends Component {
         selected you can see your current location compared to the stores that
         match your request on a map. Click on the markers on the map for store
         details and a link to get directions from your current location. You can
-        create an account in order to be able to add stores to your favorites. I
+        create an account to be able to add stores to your favorites. I
         built this app for individuals who are looking for representatives that
         speak a certain language at a T-mobile store.
       </div>
@@ -95,21 +95,20 @@ class Projects extends Component {
 
     const display3 = (
       <div className="sum-txt">
-        Quick Fit allows the user to select a desired body part they want to
-        exercise, and an amount of desired workouts for that body part. Quick
-        Fit returns the amount of desired workouts for the body part selected
-        and five random YouTube video's based off of the body part selected. I
+        Quick-Fit allows the user to select the desired body part they want to
+        exercise and an amount of desired workouts for that body part. Quick-Fit 
+        returns the amount of desired workouts for the body part selected
+        and five random YouTube videos based on the body part selected. I
         built this app for people that want to get fit. If people are strapped
-        for time i wanted to build an app so they can get new and fun workouts
+        for time I wanted to build an app so they can get new and fun workouts
         with no need to plan a routine.
       </div>
     );
 
     const display4 = (
       <div className="sum-txt">
-        The user has to answer fun trivia questions about French Bulldogs, you
-        are presented with multiple choice questions. If you select a correct
-        answer a image will render displaying a happy dog if incorrect an image
+        The user has to answer fun trivia questions about French Bulldogs, you are presented with multiple-choice questions. If you select a correct
+        answer an image will render displaying a happy dog if incorrect an image
         of a sad dog will render. This app was built for the French Bulldog
         community, I built this app so the community could test their knowledge
         on one of the most popular breeds in the US today.
