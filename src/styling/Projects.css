@@ -1,0 +1,166 @@
+.frenchquiz-image {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  background-image: url(../images/Quiz-app-screenshot.PNG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+}
+
+.quickfit-image {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  background-image: url(../images/Workout-app-screenshot.PNG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+}
+
+.findmy-image {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  background-image: url(../images/findmylang-app-screenshot.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+}
+
+.pokeclimate-image {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  background-image: url(../images/PokemonClimate.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+}
+
+
+
+/* /////////////phone//////////////// */
+
+  
+
+  .project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .pokemon, .find-my, .quick, .quiz {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 10px;
+    width: 100%;
+  }
+  
+  .summary-toggle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-style: italic;
+    margin: 5px;
+  }
+  
+  .summary-item {
+    padding: 5px;
+    color: white;
+  }
+  
+  .project-items {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+  }
+
+  .test {
+    background: black;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    margin: 40px;
+    box-shadow: 1px 3px 8px rgba(41,31,30,.1);
+  }
+
+  .pokeclimate-image, .findmy-image, .quickfit-image, .frenchquiz-image {
+    outline-style:auto;
+    outline-color: silver;
+  }
+
+
+  
+/* ///////desktop//////// */
+@media only screen and (min-width: 600px) {
+  .project-background {
+    background-color: black;
+  }
+
+  .project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .pokemon, .find-my, .quick, .quiz {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 10px;
+    width: 40%;
+  }
+  
+  .summary-toggle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-style: italic;
+    margin: 5px;
+  }
+  
+  .summary-item {
+    padding: 5px;
+    color: white;
+  }
+  
+  .project-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+  }
+
+  .test {
+    display: flex;
+    flex-direction: column;
+    background: black;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    margin: 20px;
+  }
+
+}
+
+
