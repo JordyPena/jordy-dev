@@ -1,3 +1,4 @@
+/* //////phone///// */
 .home-column {
   display: flex;
   flex-direction: column;
@@ -16,7 +17,6 @@
 }
 
 .item-right {
-  color: black;
   border-radius: 5px;
   width: 20%;
   display: flex;
@@ -62,9 +62,75 @@
   background-position: center center;
   box-shadow: 1px 3px 8px rgba(41,31,30,.1);
 }
-/*/////desktop/////////// */
 
-@media only screen and (min-width: 600px) {
+
+
+/* /////desktop 720px/////// */
+@media only screen and (min-width: 720px) {
+  .home-column {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+  }
+  .home-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .item-left {
+    width: 50%;
+    padding: 0;
+  }
+  .item-right {
+    color: black;
+    border-radius: 5px;
+    margin: 0px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.9;
+    box-shadow: 1px 3px 8px rgba(41,31,30,.1);
+  }
+
+  .hello-img {
+ 
+    height: 300px;
+    border-radius: 10px;
+    background-image: url(../images//hello.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: 1px 3px 8px rgba(41,31,30,.1);
+  }
+  
+  .code-img {
+   
+    height: 300px;
+    border-radius: 10px;
+    background-image: url(../images/code.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: 1px 3px 8px rgba(41,31,30,.1);
+  }
+  
+  .student-img {
+  
+    height: 300px;
+    border-radius: 10px;
+    background-image: url(../images/student.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: 1px 3px 8px rgba(41,31,30,.1);
+  }
+
+}
+
+/*/////desktop 1100px/////////// */
+
+@media only screen and (min-width: 1100px) {
   .home-column {
     display: flex;
     flex-direction: column;
@@ -82,15 +148,14 @@
   }
 
   .item-right {
-    background-color: black;
-    color: white;
+    color: black;
     border-radius: 5px;
     width: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 20px;
-    padding: 5px;
+    padding: 20px;
     opacity: 0.9;
     box-shadow: 1px 3px 8px rgba(41,31,30,.1);
   }
@@ -108,7 +173,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-  
+    box-shadow: 1px 3px 8px rgba(41,31,30,.1);
   }
   
   .code-img {
@@ -119,7 +184,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-  
+    box-shadow: 1px 3px 8px rgba(41,31,30,.1);
   }
   
   .student-img {
@@ -130,7 +195,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-  
+    box-shadow: 1px 3px 8px rgba(41,31,30,.1);
   }
 
   

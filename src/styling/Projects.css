@@ -6,7 +6,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-
+  box-shadow: 1px 3px 8px rgba(41,31,30,.1);
 }
 
 .quickfit-image {
@@ -17,7 +17,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-
+  box-shadow: 1px 3px 8px rgba(41,31,30,.1);
 }
 
 .findmy-image {
@@ -28,7 +28,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-
+  box-shadow: 1px 3px 8px rgba(41,31,30,.1);
 }
 
 .pokeclimate-image {
@@ -39,14 +39,20 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  box-shadow: 1px 3px 8px rgba(41,31,30,.1);
+}
 
+li {
+  list-style: none;
 }
 
 
 
 /* /////////////phone//////////////// */
 
-  
+ .project-items h1{
+   color:  #2B9E91;
+ }
 
   .project {
     display: flex;
@@ -71,13 +77,16 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-style: italic;
     margin: 5px;
   }
   
   .summary-item {
     padding: 5px;
-    color: white;
+    color: black;
+  }
+
+  .sum-txt {
+    margin: 10px;
   }
   
   .project-items {
@@ -85,14 +94,18 @@
     justify-content: center;
     padding: 5px;
     margin: 5px;
-    color: white;
+    color: black;
+  }
+
+  .project-items a:hover {
+    color:  #2B9E91;
   }
 
   .test {
-    background: black;
+    background: white;
     border-radius: 5px;
     padding: 5px;
-    color: white;
+    color: black;
     margin: 40px;
     box-shadow: 1px 3px 8px rgba(41,31,30,.1);
   }
@@ -104,11 +117,9 @@
 
 
   
-/* ///////desktop//////// */
-@media only screen and (min-width: 600px) {
-  .project-background {
-    background-color: black;
-  }
+/* ///////desktop 720px//////// */
+@media only screen and (min-width: 720px) {
+  
 
   .project {
     display: flex;
@@ -125,20 +136,19 @@
     padding: 15px;
     border-radius: 20px;
     margin: 10px;
-    width: 40%;
+    width: 80%;
   }
   
   .summary-toggle {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-style: italic;
     margin: 5px;
   }
   
   .summary-item {
     padding: 5px;
-    color: white;
+    color: black;
   }
   
   .project-items {
@@ -148,19 +158,83 @@
     justify-content: center;
     padding: 5px;
     margin: 5px;
-    color: white;
+    color: black;
   }
 
   .test {
     display: flex;
     flex-direction: column;
-    background: black;
+    background: white;
     border-radius: 5px;
     padding: 5px;
-    color: white;
+    color: black;
     margin: 20px;
+    box-shadow: 1px 3px 8px rgba(41,31,30,.1);
+  }
+
+  li {
+    display: flex;
+    justify-content: center;
   }
 
 }
 
+/*////////desktop 1024px////////////*/
 
+@media only screen and (min-width: 1024px) {
+  .project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .pokemon, .find-my, .quick, .quiz {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      width: 50%;
+      padding: 15px;
+      border-radius: 20px;
+      margin: 10px;
+      width: 50%;
+    
+  }
+  
+  .summary-toggle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5px;
+  }
+  
+  .summary-item {
+    padding: 5px;
+    color: black;
+  }
+  
+  .project-items {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+    color: black;
+  }
+
+  .project-items a:hover {
+    color:  #2B9E91;
+  }
+
+  .test {
+    background: white;
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+    margin: 40px;
+    box-shadow: 1px 3px 8px rgba(41,31,30,.1);
+  }
+
+
+  
+} 

@@ -79,7 +79,12 @@
   }
   
   .nav-text a:hover {
-    background-color:  #2B9E91;
+    color: white;
+    background-color:   #2B9E91;
+  }
+
+  .nav-text a:active {
+    color: black;
   }
   
   .nav-text button:hover {
@@ -177,7 +182,7 @@
   }
   
   .nav-link, a:hover {
-    color:  white;
+    color:  #2B9E91;
   }
   
   .nav-link, a:active {
@@ -205,9 +210,9 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: flex-end;
-    font-style: italic;
     margin: 15px;
     font-size: 40px;
+    font-weight: bolder;
   }
   
   .link-container, a {
@@ -220,10 +225,11 @@
   }
   
   .link-container, a:active {
-    color: lightskyblue;
+    color:  #1fc7b3;
   }
 
   .navbar {
     display: none;
   }
 }
+

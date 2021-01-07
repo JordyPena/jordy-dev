@@ -10,11 +10,11 @@ function Home() {
           </div>
 
           <div className="item-right">
-            <h1 className="item-right-style">Hey, I'm Jordy Peña!</h1>
-            <p className="item-right-style">
+            <h1  className="intro-items">Hey, I'm Jordy Peña!</h1>
+            <p  className="intro-items">
               I'm a Fullstack developer living in Dallas, Tx. I build backend
               databases and apis for my users and bring it all together with a
-              frontend client using React.js. I'm a motivated individual who
+              front-end client using React.js. I'm a motivated individual who
               consistently exceeds corporate expectations. I am a lifelong
               learner dedicated to going the extra mile to succeed in this
               industry.
@@ -31,14 +31,13 @@ function Home() {
 
           <div className="item-right">
             <h1 className="intro-items">About me</h1>
-            <p className="intro-items"></p>
-
             <p className="intro-items">
-              I enjoy making my own websites and seeing my code come to life!
-              I'm interested in solutions that excite and impress users. I love
-              to build quality code that makes me smile when I see it. I code
-              daily to constantly grow an be challenged outside of my comfort
-              zone. I enjoy fitness and competition.
+              I enjoy making websites and seeing my code come to life! I'm
+              interested in solutions that excite and impress users. I love to
+              build quality code that makes me smile when I see it. I code daily
+              to constantly grow and be challenged outside of my comfort zone. 
+              Big fitness and health enthusiast, I enjoy cooperating ideas and working
+              together on projects with friends and peers.
             </p>
           </div>
         </div>
