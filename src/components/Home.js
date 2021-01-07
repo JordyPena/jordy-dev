@@ -54,7 +54,7 @@ function Home() {
             <h1 className="intro-items">Student</h1>
             <p className="intro-items">
               As a graduate from THINKFUL's Full Stack Web Developer Program. I
-              Created and deployed mobile-first applications while learning new
+              created and deployed mobile-first applications while learning new
               languages and frameworks. I specialize in practical software
               development standards with a focus on JavaScript, React.js,
               Node.js, jQuery, HTML5, CSS3, algorithms and data structures.
