@@ -21,6 +21,13 @@
     font-size: 2rem;
     background: none;
     color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px;
+    outline: none;
+    border: 0;
+    padding: 10px;
   }
   
   .nav-menu {
@@ -34,6 +41,7 @@
     left: -100%;
     transition: 850ms;
     z-index: 999;
+    border: none;
   }
   
   .nav-menu.active {

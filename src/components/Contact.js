@@ -48,7 +48,7 @@ function Contact() {
             <input placeholder="chosenone@force.jedi" className="email-input" type="text" name="email" required />
             <label for="subject">Subject</label>
             <input  placeholder="Star wars website?" className="subject" type="text" name="email" required />
-            <label for="message">Message:</label>
+            <label for="message">Message</label>
             <textarea placeholder="Are you available for an interview?" className="message" name="message" required></textarea>
             <button className="contact-button" type="submit">
               Submit

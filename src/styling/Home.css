@@ -9,16 +9,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.item-left {
-  width: 100%;
   padding: 20px;
 }
 
+.item-left {
+  height: 200px;
+  width: 100%;
+ 
+}
+
 .item-right {
+  background-color: white;
   border-radius: 5px;
-  width: 20%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,33 +32,28 @@
 }
 
 .hello-img {
-  width: 100%;
-  height: 300px;
-  border-radius: 10px;
+ 
+  
   background-image: url(../images//hello.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  box-shadow: 1px 3px 8px rgba(41,31,30,.1);
 
 }
 
 .code-img {
-  width: 100%;
-  height: 300px;
-  border-radius: 10px;
+ 
   background-image: url(../images/code.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  box-shadow: 1px 3px 8px rgba(41,31,30,.1);
+ 
 }
 
 .student-img {
-  width: 100%;
-  height: 300px;
-  border-radius: 10px;
+
+
   background-image: url(../images/student.jpg);
+  
+}
+
+.home-image {
+  height: 100%;
+  border-radius: 10px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -76,14 +73,16 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: stretch;
   }
   .item-left {
+    height: auto;
     width: 50%;
     padding: 0;
   }
   .item-right {
     color: black;
-    border-radius: 5px;
+      border-radius: 0 5px 5px 0;
     margin: 0px;
     width: 50%;
     display: flex;
@@ -93,38 +92,10 @@
     box-shadow: 1px 3px 8px rgba(41,31,30,.1);
   }
 
-  .hello-img {
- 
-    height: 300px;
-    border-radius: 10px;
-    background-image: url(../images//hello.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    box-shadow: 1px 3px 8px rgba(41,31,30,.1);
+  .home-image {
+    border-radius: 5px 0 0 5px;
   }
   
-  .code-img {
-   
-    height: 300px;
-    border-radius: 10px;
-    background-image: url(../images/code.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    box-shadow: 1px 3px 8px rgba(41,31,30,.1);
-  }
-  
-  .student-img {
-  
-    height: 300px;
-    border-radius: 10px;
-    background-image: url(../images/student.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    box-shadow: 1px 3px 8px rgba(41,31,30,.1);
-  }
 
 }
 
@@ -140,11 +111,14 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: stretch;
   }
 
   .item-left {
+    height: auto;
     width: 50%;
     padding: 20px;
+    
   }
 
   .item-right {
@@ -165,37 +139,8 @@
     padding: 5px;
   }
 
-  .hello-img {
- 
-    height: 500px;
-    border-radius: 10px;
-    background-image: url(../images//hello.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    box-shadow: 1px 3px 8px rgba(41,31,30,.1);
-  }
-  
-  .code-img {
-   
-    height: 500px;
-    border-radius: 10px;
-    background-image: url(../images/code.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    box-shadow: 1px 3px 8px rgba(41,31,30,.1);
-  }
-  
-  .student-img {
-  
-    height: 500px;
-    border-radius: 10px;
-    background-image: url(../images/student.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    box-shadow: 1px 3px 8px rgba(41,31,30,.1);
+  .home-image {
+    border-radius: 5px;
   }
 
   

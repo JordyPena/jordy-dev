@@ -26,14 +26,36 @@
 
 .contact-button {
   color: white;
+  border-radius: 5px;
   background-color: #2B9E91;
-  margin: 10px;
+  margin-top: 20px;
+  border: 0;
+  padding: 15px;
+  font-size: 18px;
+  width: 100%;
+  max-width: 200px;
+  align-self: center;
 }
 
 .contact-button:hover {
-  color: black;
-  background-color: #2B9E91;
+  background-color: #2d8d83;
 }
+
+.contact-form, label {
+  width: 100%;
+  margin: 5px;
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 10px;
+}
+
+.contact-form label {
+  
+  margin: 10px 0 5px;
+}
+
+
 
 /* /////desktop 720px */
 @media only screen and (min-width: 720px) {
@@ -62,20 +84,11 @@
   }
 
   .contact-form, label {
-    width: 50%;
+    max-width: 600px;
     margin: 5px;
   }
 
-  .contact-button {
-    color: white;
-    background-color: #2B9E91;
-    margin: 10px;
-  }
-
-  .contact-button:hover {
-    color: black;
-    background-color: #2B9E91;
-  }
+ 
 }
 
 /*/////desktop 1024px/////////// */
@@ -104,19 +117,7 @@
     font-weight: bolder;
   }
 
-  .contact-form, label {
-    width: 80%;
-    margin: 5px;
-  }
+  
 
-  .contact-button {
-    color: white;
-    background-color: #2B9E91;
-    margin: 10px;
-  }
-
-  .contact-button:hover {
-    color: black;
-    background-color: #2B9E91;
-  }
+ 
 }

@@ -1,45 +1,39 @@
-.frenchquiz-image {
-  width: 100%;
-  height: 300px;
-  border-radius: 10px;
+.project-img {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: 1px 3px 8px rgba(41,31,30,.1);
+}
+
+.project-img:hover {
+  box-shadow: 1px 3px 8px black;
+}
+
+.frenchquiz {
+ 
   background-image: url(../images/Quiz-app-screenshot.PNG);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  box-shadow: 1px 3px 8px rgba(41,31,30,.1);
+
 }
 
-.quickfit-image {
-  width: 100%;
-  height: 300px;
-  border-radius: 10px;
+.quickfit {
+ 
   background-image: url(../images/Workout-app-screenshot.PNG);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  box-shadow: 1px 3px 8px rgba(41,31,30,.1);
+ 
 }
 
-.findmy-image {
-  width: 100%;
-  height: 300px;
-  border-radius: 10px;
+.findmy {
+ 
   background-image: url(../images/findmylang-app-screenshot.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  box-shadow: 1px 3px 8px rgba(41,31,30,.1);
+ 
 }
 
-.pokeclimate-image {
-  width: 100%;
-  height: 300px;
-  border-radius: 10px;
+.pokeclimate {
+  
   background-image: url(../images/PokemonClimate.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  box-shadow: 1px 3px 8px rgba(41,31,30,.1);
+ 
 }
 
 li {
@@ -53,6 +47,12 @@ li {
  .project-items h1{
    color:  #2B9E91;
  }
+
+ .project-items h1:hover {
+  text-decoration: underline;
+ }
+
+
 
   .project {
     display: flex;
@@ -110,10 +110,7 @@ li {
     box-shadow: 1px 3px 8px rgba(41,31,30,.1);
   }
 
-  .pokeclimate-image, .findmy-image, .quickfit-image, .frenchquiz-image {
-    outline-style:auto;
-    outline-color: silver;
-  }
+ 
 
 
   
