@@ -72,35 +72,29 @@ class Projects extends Component {
     const display2 = (
       <div className="sum-txt">
         FindMyLang allows users to find T-Mobile stores in Dallas, TX that have
-        representatives that speak the language they've selected. Once a
-        language is selected you can see your current location compared to the
-        stores that match your request on a map. Click on the markers on the map
-        for store details and a link to get directions from your current
-        location. Users can create an account to be able to add stores to your
-        favorites. I built this app for consumers who are looking for
-        representatives that speak a certain language at a T-mobile store.
+        representatives that speak the language they've selected. Users can
+        create an account to add stores to a personalized list of favorites.
       </div>
     );
 
     const display3 = (
       <div className="sum-txt">
-        Quick-Fit allows users to search for several workouts related to a
-        body part of their choice. Along with a list of workouts, Quick-Fit also
-        provides 5 video workouts via the YouTube API. I built this app
-        for people that want to get fit. Quick-Fit is an ideal app for people who
-        may be strapped for time and want to find new and fun workouts without the
-        need to plan a routine.
-        
+        Quick-Fit allows users to search for several workouts related to a body
+        part of their choice. Along with a list of workouts, Quick-Fit also
+        provides 5 video workouts via the YouTube API. I built this app for
+        people that want to get fit. Quick-Fit is an ideal app for people who
+        may be strapped for time and want to find new and fun workouts without
+        the need to plan a routine.
       </div>
     );
 
     const display4 = (
       <div className="sum-txt">
-        Frenchie Quiz is a fun trivia game about French Bulldogs.
-        Users are presented with multiple-choice questions. If you select
-        the correct answer, an image will render displaying a happy dog. If 
-        incorrect, an image of a sad dog will appear. Frenchie Quiz will test
-        users' knowledge of one of the most popular dog breeds in the US today.
+        Frenchie Quiz is a fun trivia game about French Bulldogs. Users are
+        presented with multiple-choice questions. If you select the correct
+        answer, an image will render displaying a happy dog. If incorrect, an
+        image of a sad dog will appear. Frenchie Quiz will test users' knowledge
+        of one of the most popular dog breeds in the US today.
       </div>
     );
     return (
