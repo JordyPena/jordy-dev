@@ -12,11 +12,12 @@ function Home() {
           <div className="item-right">
             <h1 className="intro-items">Hey, I'm Jordy Peña!</h1>
             <p className="intro-items">
-              I'm a full-stack developer in Dallas, TX. I specialize in
+              I'm a Front end developer in Dallas, TX. I specialize in
               engineering front-end client solutions using ReactJS with
-              seamlessly integrated custom-built back-end APIs and databases
-              using Node.js and Postgres. I also add focus to automated testing
-              using Jest and Mocha, Chai, and Supertest to all my projects.
+              responsive web design, and reusable code with seamlessly integrated
+              custom-built back-end APIs and databases using Node.js and
+              PostgreSQL. I also add focus to automated testing using Jest and
+              Mocha, Chai, and Supertest to all my projects.
             </p>
           </div>
         </div>
@@ -51,13 +52,13 @@ function Home() {
           </div>
 
           <div className="item-right">
-            <h1 className="intro-items">Student</h1>
+            <h1 className="intro-items">Developer</h1>
             <p className="intro-items">
-              As a graduate from Thinkful's Full Stack Web Developer Program. I
-              created and deployed mobile-first applications while learning new
+              As a graduate from Thinkful's Software Engineer Program. I created
+              and deployed mobile-first applications while learning new
               languages and frameworks. I specialize in practical software
               development standards with a focus on JavaScript, ReactJS,
-              Node.js, jQuery, HTML5, CSS3.
+              Node.js, PostgreSQL, RestfulAPIS, jQuery, HTML5, CSS3.
             </p>
           </div>
         </div>
