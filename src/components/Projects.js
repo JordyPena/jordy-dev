@@ -123,11 +123,10 @@ class Projects extends Component {
                 >
                   View Code
                 </a>
-                <p className="project-items">Technical Stack</p>
 
                 <p className="project-items">
-                  Fullstack app: using React.js, Node.js, Express, PostgreSQL,
-                  and HTML/CSS.
+                  Fullstack app built with: React.js, Node.js, Express,
+                  PostgreSQL, and HTML/CSS.
                 </p>
                 {display1}
               </div>
@@ -155,11 +154,10 @@ class Projects extends Component {
                 >
                   View Code
                 </a>
-                <p className="project-items">Technical Stack</p>
 
                 <p className="project-items">
-                  Fullstack app using React.js, Node.js, Express, PostgreSQL,
-                  and HTML/CSS.
+                  Fullstack app built with: React.js, Node.js, Express,
+                  PostgreSQL, and HTML/CSS.
                 </p>
 
                 {display2}
@@ -191,10 +189,10 @@ class Projects extends Component {
                 >
                   View Code
                 </a>
-                <p className="project-items">Technical Stack</p>
 
                 <p className="project-items">
-                  JavaScript, jQuery, API, HTML/CSS, VSCode, git, Github
+                  Frontend App built with: JavaScript, jQuery, API, HTML/CSS,
+                  VSCode, git, Github
                 </p>
 
                 {display3}
@@ -223,11 +221,10 @@ class Projects extends Component {
                 >
                   View Code
                 </a>
-                <p className="project-items">Technical Stack</p>
 
                 <p className="project-items">
-                  {" "}
-                  JavaScript, jQuery, API, HTML/CSS, VSCode, git, Github
+                  Frontend App built with: JavaScript, jQuery, API, HTML/CSS,
+                  VSCode, git, Github
                 </p>
 
                 {display4}
