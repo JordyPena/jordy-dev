@@ -60,31 +60,30 @@ class Projects extends Component {
   render() {
     const display1 = (
       <div className="sum-txt">
-        Pokemon Climate allows kids to explore their interest in meteorology by
-        looking for different climates in the world and using pokemon to make it
-        fun. In the search bar, users can type in a zip code, and get the
-        current weather of that city along with a pokemon sprite to demonstrate
-        pokemon that could be found in that environment. You must create an
-        account before you can use the website.
+        Pokémon Climate utilizes a weather API, And allows Pokemon fans to find
+        Pokemon in the wild based on weather conditions. Developed dynamic
+        components that rendered Pokemon based on weather precipitation and
+        cloud coverage.
       </div>
     );
 
     const display2 = (
       <div className="sum-txt">
-        FindMyLang allows users to find T-Mobile stores in Dallas, TX that have
-        representatives that speak the language they've selected. Users can
-        create an account to add stores to a personalized list of favorites.
+        FindMyLang uses a personally created Database and a Google-react Npm
+        package. To display T-mobile stores in Dallas, Tx. Developed a Database
+        for users to create an account, login, add locations to favorites and
+        remove locations from favorites. Developed dynamic endpoints for all
+        routes in my RestfulAPI. Developed dynamic markers on a google map along
+        with directions from your location.
       </div>
     );
 
     const display3 = (
       <div className="sum-txt">
-        Quick-Fit allows users to search for several workouts related to a body
-        part of their choice. Along with a list of workouts, Quick-Fit also
-        provides 5 video workouts via the YouTube API. I built this app for
-        people that want to get fit. Quick-Fit is an ideal app for people who
-        may be strapped for time and want to find new and fun workouts without
-        the need to plan a routine.
+        Quick Fit utilizes Youtube’s API and a workout API. It displays workouts
+        based on the number of desired workouts selected and YouTube videos
+        based on the body part selected. Developed dynamic workouts and workout
+        videos by using the users input.
       </div>
     );
 
@@ -117,14 +116,6 @@ class Projects extends Component {
                 <div className="project-img pokeclimate"></div>
               </a>
               <div className="test">
-                <p className="project-items">Tech Stack</p>
-
-                <p className="project-items">
-                  Fullstack app using React.js, Node.js
-                </p>
-                <p className="project-items">Express and PostgreSQL</p>
-                <p className="project-items">HTML/CSS</p>
-
                 <a
                   href="https://github.com/JordyPena/pokemonClimate"
                   target="_blank"
@@ -132,18 +123,13 @@ class Projects extends Component {
                 >
                   View Code
                 </a>
+                <p className="project-items">Technical Stack</p>
 
-                <div className="summary-toggle">
-                  {/* <a
-                    className="summary-item"
-                    onClick={() => this.handleShow1()}
-                  >
-                   
-                  </a> */}
-                  Summary
-                </div>
+                <p className="project-items">
+                  Fullstack app: using React.js, Node.js, Express, PostgreSQL,
+                  and HTML/CSS.
+                </p>
                 {display1}
-                {/* {this.state.summary1 ? display1 : ""} */}
               </div>
             </div>
           </div>
@@ -162,14 +148,6 @@ class Projects extends Component {
                 <div className="project-img findmy"></div>
               </a>
               <div className="test">
-                <p className="project-items">Tech Stack</p>
-
-                <p className="project-items">
-                  Fullstack app using React.js, Node.js
-                </p>
-                <p className="project-items">Express and PostgreSQL</p>
-                <p className="project-items">HTML/CSS</p>
-
                 <a
                   href="https://github.com/JordyPena/FindMyLang-app"
                   target="_blank"
@@ -177,17 +155,14 @@ class Projects extends Component {
                 >
                   View Code
                 </a>
+                <p className="project-items">Technical Stack</p>
 
-                <div className="summary-toggle">
-                  {/* <a
-                    className="summary-item"
-                    onClick={() => this.handleShow2()}
-                  >
-                  </a> */}
-                  Summary
-                </div>
+                <p className="project-items">
+                  Fullstack app using React.js, Node.js, Express, PostgreSQL,
+                  and HTML/CSS.
+                </p>
+
                 {display2}
-                {/* {this.state.summary2 ? display2 : ""} */}
               </div>
             </div>
           </div>
@@ -209,12 +184,6 @@ class Projects extends Component {
                 <div className="project-img quickfit"></div>
               </a>
               <div className="test">
-                <p className="project-items">Tech Stack</p>
-
-                <p className="project-items">JavaScript and jQuery, API</p>
-                <p className="project-items">HTML/CSS, VSCode</p>
-                <p className="project-items">git, Github</p>
-
                 <a
                   href="https://github.com/JordyPena/Workout-App"
                   target="_blank"
@@ -222,17 +191,13 @@ class Projects extends Component {
                 >
                   View Code
                 </a>
+                <p className="project-items">Technical Stack</p>
 
-                <div className="summary-toggle">
-                  {/* <a
-                    className="summary-item"
-                    onClick={() => this.handleShow3()}
-                  >
-                  </a> */}
-                  Summary
-                </div>
+                <p className="project-items">
+                  JavaScript, jQuery, API, HTML/CSS, VSCode, git, Github
+                </p>
+
                 {display3}
-                {/* {this.state.summary3 ? display3 : ""} */}
               </div>
             </div>
           </div>
@@ -251,12 +216,6 @@ class Projects extends Component {
                 <div className="project-img frenchquiz"></div>
               </a>
               <div className="test">
-                <p className="project-items">Tech Stack</p>
-
-                <p className="project-items">JavaScript and jQuery, API</p>
-                <p className="project-items"> HTML/CSS, VSCode</p>
-                <p className="project-items"> git, Github</p>
-
                 <a
                   href="https://github.com/JordyPena/Quiz-app"
                   target="_blank"
@@ -264,17 +223,14 @@ class Projects extends Component {
                 >
                   View Code
                 </a>
+                <p className="project-items">Technical Stack</p>
 
-                <div className="summary-toggle">
-                  {/* <a
-                    className="summary-item"
-                    onClick={() => this.handleShow4()}
-                  >
-                  </a> */}
-                  Summary
-                </div>
+                <p className="project-items">
+                  {" "}
+                  JavaScript, jQuery, API, HTML/CSS, VSCode, git, Github
+                </p>
+
                 {display4}
-                {/* {this.state.summary4 ? display4 : ""} */}
               </div>
             </div>
           </div>
