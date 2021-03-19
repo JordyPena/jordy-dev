@@ -60,6 +60,13 @@ class Projects extends Component {
   render() {
     const display1 = (
       <div className="sum-txt">
+        Created with responsive web design. Developed dynamic components that render constructed barns, or build yourself kits. Created dynamic summaries
+        for each kit, and developed pinch and zoom blueprints.
+      </div>
+    );
+
+    const display2 = (
+      <div className="sum-txt">
         Pokémon Climate utilizes a weather API, And allows Pokemon fans to find
         Pokemon in the wild based on weather conditions. Developed dynamic
         components that rendered Pokemon based on weather precipitation and
@@ -67,7 +74,7 @@ class Projects extends Component {
       </div>
     );
 
-    const display2 = (
+    const display3 = (
       <div className="sum-txt">
         FindMyLang uses a personally created Database and a Google-react Npm
         package. To display T-mobile stores in Dallas, Tx. Developed a Database
@@ -78,7 +85,7 @@ class Projects extends Component {
       </div>
     );
 
-    const display3 = (
+    const display4 = (
       <div className="sum-txt">
         Quick Fit utilizes Youtube’s API and a workout API. It displays workouts
         based on the number of desired workouts selected and YouTube videos
@@ -86,19 +93,41 @@ class Projects extends Component {
         videos by using the users input.
       </div>
     );
-
-    const display4 = (
-      <div className="sum-txt">
-        Frenchie Quiz is a fun trivia game about French Bulldogs. Users are
-        presented with multiple-choice questions. If you select the correct
-        answer, an image will render displaying a happy dog. If incorrect, an
-        image of a sad dog will appear. Frenchie Quiz will test users' knowledge
-        of one of the most popular dog breeds in the US today.
-      </div>
-    );
     return (
       <>
         <div className="project-background">
+          <div className="project">
+            <div className="pokemon">
+              <a
+                href="https://construction-freelance.vercel.app/"
+                target="_blank"
+                className="project-items"
+              >
+                <h1 className="project-items">Straub Construction LLC</h1>
+              </a>
+
+              <a
+                href="https://construction-freelance.vercel.app/"
+                target="_blank"
+              >
+                <div className="project-img construction"></div>
+              </a>
+              <div className="test">
+                <a
+                  href="https://github.com/JordyPena/construction-freelance"
+                  target="_blank"
+                  className="project-items"
+                >
+                  View Code
+                </a>
+
+                <p className="project-items">
+                  Front end app built with: React.js and HTML/CSS.
+                </p>
+                {display1}
+              </div>
+            </div>
+          </div>
           <div className="project">
             <div className="pokemon">
               <a
@@ -128,7 +157,7 @@ class Projects extends Component {
                   Fullstack app built with: React.js, Node.js, Express,
                   PostgreSQL, and HTML/CSS.
                 </p>
-                {display1}
+                {display2}
               </div>
             </div>
           </div>
@@ -160,7 +189,7 @@ class Projects extends Component {
                   PostgreSQL, and HTML/CSS.
                 </p>
 
-                {display2}
+                {display3}
               </div>
             </div>
           </div>
@@ -184,38 +213,6 @@ class Projects extends Component {
               <div className="test">
                 <a
                   href="https://github.com/JordyPena/Workout-App"
-                  target="_blank"
-                  className="project-items"
-                >
-                  View Code
-                </a>
-
-                <p className="project-items">
-                  Frontend App built with: JavaScript, jQuery, API, HTML/CSS,
-                  VSCode, git, Github
-                </p>
-
-                {display3}
-              </div>
-            </div>
-          </div>
-
-          <div className="project">
-            <div className="quiz">
-              <a
-                href="https://jordypena.github.io/Quiz-app/"
-                target="_blank"
-                className="project-items"
-              >
-                <h1 className="project-items">Frenchie Quiz</h1>
-              </a>
-
-              <a href="https://jordypena.github.io/Quiz-app/" target="_blank">
-                <div className="project-img frenchquiz"></div>
-              </a>
-              <div className="test">
-                <a
-                  href="https://github.com/JordyPena/Quiz-app"
                   target="_blank"
                   className="project-items"
                 >
