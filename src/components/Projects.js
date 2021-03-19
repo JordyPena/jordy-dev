@@ -103,7 +103,7 @@ class Projects extends Component {
                 target="_blank"
                 className="project-items"
               >
-                <h1 className="project-items">Straub Construction LLC</h1>
+                <h1 className="project-items">Freelance Demo</h1>
               </a>
 
               <a
