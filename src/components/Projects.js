@@ -65,11 +65,10 @@ class Projects extends Component {
   };
 
   render() {
-    const display1 = (
-      <div className="sum-txt">
-       
-      </div>
-    );
+    const display1 = <div className="sum-txt">
+      This is a clone of TCG Guru in order to practice some CSS, theming, and user search filtering.
+      Created with dynamic routes using query params. 
+    </div>;
 
     const display2 = (
       <div className="sum-txt">
@@ -99,165 +98,197 @@ class Projects extends Component {
       </div>
     );
     return (
-        <div className="project-background">
-          {/* project 1 */}
-          <div className="project">
-            <div className="pokemon">
+      <div className="project-background">
+        {/* project 1 */}
+        <div className="project">
+          <div className="pokemon">
+            <a
+              href="https://tcg.vercel.app/"
+              target="_blank"
+              className="project-items"
+            >
+              <h1 className="project-items">TCG GURU CLONE</h1>
+            </a>
+
+            <a href="https://tcg.vercel.app/" target="_blank">
+              <div className="images-container">
+                <div>
+                  <img
+                    src={Tcg}
+                    alt="construction"
+                    className="straub-img"
+                  ></img>
+                </div>
+                <div>
+                  <img
+                    src={Tcg2}
+                    alt="construction"
+                    className="straub-img"
+                  ></img>
+                </div>
+              </div>
+            </a>
+            <div className="test">
               <a
-                href="https://tcg.vercel.app/"
+                href="https://github.com/JordyPena/tcg"
                 target="_blank"
                 className="project-items"
               >
-                <h1 className="project-items">TCG GURU CLONE</h1>
+                View Code
               </a>
 
-              <a
-                href="https://tcg.vercel.app/"
-                target="_blank"
-                className="construction-link"
-              >
-                <div>
-                  <img src={Tcg} alt="construction" className="straub-img"></img>
-                </div>
-                <div>
-                  <img src={Tcg2} alt="construction" className="straub-img"></img>
-                </div>
-              </a>
-              <div className="test">
-                <a
-                  href="https://github.com/JordyPena/tcg"
-                  target="_blank"
-                  className="project-items"
-                >
-                  View Code
-                </a>
-
-                <p className="project-items">
-                  Front end app built with: React.js and HTML/CSS.
-                </p>
-                {display1}
-              </div>
+              <p className="project-items">
+                Front end app built with: React.js and HTML/CSS.
+              </p>
+              {display1}
             </div>
           </div>
-          {/* project 2 */}
-          <div className="project">
-            <div className="pokemon">
-              <a
-                href="https://construction-freelance.vercel.app/"
-                target="_blank"
-                className="project-items"
-              >
-                <h1 className="project-items">Freelance Demo</h1>
-              </a>
-
-              <a
-                href="https://construction-freelance.vercel.app/"
-                target="_blank"
-                className="construction-link"
-              >
-                <div>
-                  <img src={Straub} alt="construction" className="straub-img"></img>
-                </div>
-                <div>
-                  <img src={Straub2} alt="construction" className="straub-img"></img>
-                </div>
-              </a>
-              <div className="test">
-                <a
-                  href="https://github.com/JordyPena/construction-freelance"
-                  target="_blank"
-                  className="project-items"
-                >
-                  View Code
-                </a>
-
-                <p className="project-items">
-                  Front end app built with: React.js and HTML/CSS.
-                </p>
-                {display2}
-              </div>
-            </div>
-          </div>
-{/* project 3 */}
-<div className="project">
-            <div className="pokemon">
-              <a
-                href="https://pokemonclimate-client.vercel.app/login"
-                target="_blank"
-                className="project-items"
-              >
-                <h1 className="project-items">Pokemon Climate</h1>
-              </a>
-
-              <a
-                href="https://pokemonclimate-client.vercel.app/login"
-                target="_blank"
-                className="construction-link"
-              >
-               <div>
-                  <img src={Climate} alt="construction" className="straub-img"></img>
-                </div>
-                <div>
-                  <img src={Climate2} alt="construction" className="straub-img"></img>
-                </div>
-              </a>
-              <div className="test">
-                <a
-                  href="https://github.com/JordyPena/pokemonClimate"
-                  target="_blank"
-                  className="project-items"
-                >
-                  View Code
-                </a>
-
-                <p className="project-items">
-                  Fullstack app built with: React.js, Node.js, Express,
-                  PostgreSQL, and HTML/CSS.
-                </p>
-                {display3}
-              </div>
-            </div>
-          </div>
-{/* project 4 */}
-<div className="project">
-            <div className="find-my">
-              <a
-                href="https://find-my-lang-app.vercel.app/"
-                target="_blank"
-                className="project-items"
-              >
-                <h1 className="project-items">Find My Lang</h1>
-              </a>
-
-              <a href="https://find-my-lang-app.vercel.app/" target="_blank"
-              className="construction-link">
-              <div>
-                  <img src={Find} alt="construction" className="straub-img"></img>
-                </div>
-                <div>
-                  <img src={Find2} alt="construction" className="straub-img"></img>
-                </div>
-              </a>
-              <div className="test">
-                <a
-                  href="https://github.com/JordyPena/FindMyLang-app"
-                  target="_blank"
-                  className="project-items"
-                >
-                  View Code
-                </a>
-
-                <p className="project-items">
-                  Fullstack app built with: React.js, Node.js, Express,
-                  PostgreSQL, and HTML/CSS.
-                </p>
-
-                {display4}
-              </div>
-            </div>
-          </div>
-
         </div>
+        {/* project 2 */}
+        <div className="project">
+          <div className="pokemon">
+            <a
+              href="https://construction-freelance.vercel.app/"
+              target="_blank"
+              className="project-items"
+            >
+              <h1 className="project-items">Freelance Demo</h1>
+            </a>
+
+            <a
+              href="https://construction-freelance.vercel.app/"
+              target="_blank"
+            >
+              <div className="images-container">
+                <div>
+                  <img
+                    src={Straub}
+                    alt="construction"
+                    className="straub-img"
+                  ></img>
+                </div>
+                <div>
+                  <img
+                    src={Straub2}
+                    alt="construction"
+                    className="straub-img"
+                  ></img>
+                </div>
+              </div>
+            </a>
+            <div className="test">
+              <a
+                href="https://github.com/JordyPena/construction-freelance"
+                target="_blank"
+                className="project-items"
+              >
+                View Code
+              </a>
+
+              <p className="project-items">
+                Front end app built with: React.js and HTML/CSS.
+              </p>
+              {display2}
+            </div>
+          </div>
+        </div>
+        {/* project 3 */}
+        <div className="project">
+          <div className="pokemon">
+            <a
+              href="https://pokemonclimate-client.vercel.app/login"
+              target="_blank"
+              className="project-items"
+            >
+              <h1 className="project-items">Pokemon Climate</h1>
+            </a>
+
+            <a
+              href="https://pokemonclimate-client.vercel.app/login"
+              target="_blank"
+            >
+              <div className="images-container">
+                <div>
+                  <img
+                    src={Climate}
+                    alt="construction"
+                    className="straub-img"
+                  ></img>
+                </div>
+                <div>
+                  <img
+                    src={Climate2}
+                    alt="construction"
+                    className="straub-img"
+                  ></img>
+                </div>
+              </div>
+            </a>
+            <div className="test">
+              <a
+                href="https://github.com/JordyPena/pokemonClimate"
+                target="_blank"
+                className="project-items"
+              >
+                View Code
+              </a>
+
+              <p className="project-items">
+                Fullstack app built with: React.js, Node.js, Express,
+                PostgreSQL, and HTML/CSS.
+              </p>
+              {display3}
+            </div>
+          </div>
+        </div>
+        {/* project 4 */}
+        <div className="project">
+          <div className="find-my">
+            <a
+              href="https://find-my-lang-app.vercel.app/"
+              target="_blank"
+              className="project-items"
+            >
+              <h1 className="project-items">Find My Lang</h1>
+            </a>
+
+            <a href="https://find-my-lang-app.vercel.app/" target="_blank">
+              <div className="images-container">
+                <div>
+                  <img
+                    src={Find}
+                    alt="construction"
+                    className="straub-img"
+                  ></img>
+                </div>
+                <div>
+                  <img
+                    src={Find2}
+                    alt="construction"
+                    className="straub-img"
+                  ></img>
+                </div>
+              </div>
+            </a>
+            <div className="test">
+              <a
+                href="https://github.com/JordyPena/FindMyLang-app"
+                target="_blank"
+                className="project-items"
+              >
+                View Code
+              </a>
+
+              <p className="project-items">
+                Fullstack app built with: React.js, Node.js, Express,
+                PostgreSQL, and HTML/CSS.
+              </p>
+
+              {display4}
+            </div>
+          </div>
+        </div>
+      </div>
     );
   }
 }
