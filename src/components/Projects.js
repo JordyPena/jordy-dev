@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "../styling/Projects.css";
-
+import Straub from "../images/Straub.png";
+import Straub2 from "../images/Straub2.png";
 class Projects extends Component {
   constructor(props) {
     super(props);
@@ -110,8 +111,14 @@ class Projects extends Component {
               <a
                 href="https://construction-freelance.vercel.app/"
                 target="_blank"
+                className="construction-link"
               >
-                <div className="project-img construction"></div>
+                <div>
+                  <img src={Straub} alt="construction" className="straub-img"></img>
+                </div>
+                <div>
+                  <img src={Straub2} alt="construction" className="straub-img"></img>
+                </div>
               </a>
               <div className="test">
                 <a
