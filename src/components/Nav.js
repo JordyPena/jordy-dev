@@ -17,7 +17,7 @@ function Nav() {
       <div>
         <div className="navbar">
           <button className="menu-bars" onClick={showSidebar}>
-            <FaIcons.FaBars  />
+            <FaIcons.FaBars />
           </button>
         </div>
 

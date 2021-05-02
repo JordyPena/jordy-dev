@@ -14,10 +14,10 @@ function Home() {
             <p className="intro-items">
               I'm a Front end developer in Dallas, TX. I specialize in
               engineering front-end client solutions using ReactJS with
-              responsive web design, and reusable code with seamlessly integrated
-              custom-built back-end APIs and databases using Node.js and
-              PostgreSQL. I also add focus to automated testing using Jest and
-              Mocha, Chai, and Supertest to all my projects.
+              responsive web design, and reusable code with seamlessly
+              integrated custom-built back-end APIs and databases using Node.js
+              and PostgreSQL. I also add focus to automated testing using Jest
+              and Mocha, Chai, and Supertest to all my projects.
             </p>
           </div>
         </div>

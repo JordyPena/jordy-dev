@@ -60,8 +60,9 @@ class Projects extends Component {
   render() {
     const display1 = (
       <div className="sum-txt">
-        Created with responsive web design. Developed dynamic components that render constructed barns, or build yourself kits. Created dynamic summaries
-        for each kit, and developed pinch and zoom blueprints.
+        Created with responsive web design. Developed dynamic components that
+        render constructed barns, or build yourself kits. Created dynamic
+        summaries for each kit, and developed pinch and zoom blueprints.
       </div>
     );
 
