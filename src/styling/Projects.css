@@ -12,30 +12,6 @@
   box-shadow: 1px 3px 8px black;
 }
 
-.construction {
- 
-  background-image: url(../images/Straub.png);
-
-}
-
-.quickfit {
- 
-  background-image: url(../images/Workout-app-screenshot.PNG);
- 
-}
-
-.findmy {
- 
-  background-image: url(../images/findmylang-app-screenshot.png);
- 
-}
-
-.pokeclimate {
-  
-  background-image: url(../images/PokemonClimate.png);
- 
-}
-
 li {
   list-style: none;
 }

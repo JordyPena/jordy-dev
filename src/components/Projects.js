@@ -4,6 +4,10 @@ import Straub from "../images/Straub.png";
 import Straub2 from "../images/Straub2.png";
 import Tcg from "../images/TCG-iphone.png";
 import Tcg2 from "../images/TCG-ipad.png";
+import Climate from "../images/Climate-iphone.png";
+import Climate2 from "../images/Climate-ipad.png";
+import Find from "../images/Find.png";
+import Find2 from "../images/Find2.png";
 class Projects extends Component {
   constructor(props) {
     super(props);
@@ -188,8 +192,14 @@ class Projects extends Component {
               <a
                 href="https://pokemonclimate-client.vercel.app/login"
                 target="_blank"
+                className="construction-link"
               >
-                <div className="project-img pokeclimate"></div>
+               <div>
+                  <img src={Climate} alt="construction" className="straub-img"></img>
+                </div>
+                <div>
+                  <img src={Climate2} alt="construction" className="straub-img"></img>
+                </div>
               </a>
               <div className="test">
                 <a
@@ -219,8 +229,14 @@ class Projects extends Component {
                 <h1 className="project-items">Find My Lang</h1>
               </a>
 
-              <a href="https://find-my-lang-app.vercel.app/" target="_blank">
-                <div className="project-img findmy"></div>
+              <a href="https://find-my-lang-app.vercel.app/" target="_blank"
+              className="construction-link">
+              <div>
+                  <img src={Find} alt="construction" className="straub-img"></img>
+                </div>
+                <div>
+                  <img src={Find2} alt="construction" className="straub-img"></img>
+                </div>
               </a>
               <div className="test">
                 <a
