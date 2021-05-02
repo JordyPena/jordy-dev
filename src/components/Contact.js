@@ -16,7 +16,7 @@ function Contact() {
             href="https://github.com/JordyPena"
             target="_blank"
           >
-            <FiIcons.FiGithub size={50}/>
+            <FiIcons.FiGithub size={50} />
           </a>
 
           <a
@@ -24,7 +24,7 @@ function Contact() {
             href="https://www.linkedin.com/in/jordypenadev/"
             target="_blank"
           >
-            <SiIcons.SiLinkedin size={50}/>
+            <SiIcons.SiLinkedin size={50} />
           </a>
 
           <a
@@ -32,7 +32,7 @@ function Contact() {
             href="mailto:jordypenamontes@gmail.com"
             target="_blank"
           >
-            <AiIcons.AiOutlineMail size={50}/>
+            <AiIcons.AiOutlineMail size={50} />
           </a>
         </div>
 
@@ -43,13 +43,36 @@ function Contact() {
             method="POST"
           >
             <label for="user-name">Name</label>
-            <input placeholder="Baby Yoda" className="user-name" type="text" name="name" required />
+            <input
+              placeholder="Baby Yoda"
+              className="user-name"
+              type="text"
+              name="name"
+              required
+            />
             <label for="email-input">Email</label>
-            <input placeholder="chosenone@force.jedi" className="email-input" type="text" name="email" required />
+            <input
+              placeholder="chosenone@force.jedi"
+              className="email-input"
+              type="text"
+              name="email"
+              required
+            />
             <label for="subject">Subject</label>
-            <input  placeholder="Star wars website?" className="subject" type="text" name="email" required />
+            <input
+              placeholder="Star wars website?"
+              className="subject"
+              type="text"
+              name="email"
+              required
+            />
             <label for="message">Message</label>
-            <textarea placeholder="Are you available for an interview?" className="message" name="message" required></textarea>
+            <textarea
+              placeholder="Are you available for an interview?"
+              className="message"
+              name="message"
+              required
+            ></textarea>
             <button className="contact-button" type="submit">
               Submit
             </button>
