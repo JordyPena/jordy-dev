@@ -117,7 +117,15 @@ li {
       line-height: 30px;
   }
 
- 
+ .straub-img {
+   width: 150px;
+   height: auto;
+ }
+
+ .construction-link {
+   display: flex;
+   padding: 0;
+ }
 
 
   
